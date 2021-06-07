@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "name.short": "Rapporteur d’incident – Expert",
-  "description.short": "Chatbot d’équipe d’experts pour traiter les demandes des utilisateurs et établir les experts disponibles.",
+  "description.short": "Chatbot d’équipe d’experts pour traiter les demandes des utilisateurs.",
   "description.full": "Gérez la demande de support et établissez les experts disponibles dans l’équipe. Recherchez parmi les demandes urgentes, affectées et non affectées directement à partir de l’équipe d’experts.",
   "bots[0].commandLists[0].commands[0].title": "Liste d’experts",
   "bots[0].commandLists[0].commands[0].description": "Liste des experts disponibles",
@@ -15,6 +15,6 @@
   "composeExtensions[0].commands[1].parameters[0].description": "Recherchez parmi les demandes",
   "composeExtensions[0].commands[2].title": "Non affectées",
   "composeExtensions[0].commands[2].description": "Recherchez parmi les demandes qui ne sont pas encore affectées à un expert",
-  "composeExtensions[0].commands[2].parameters[0].title": "Rechercher"
+  "composeExtensions[0].commands[2].parameters[0].title": "Rechercher",
   "composeExtensions[0].commands[2].parameters[0].description": "Recherchez parmi les demandes"
 }

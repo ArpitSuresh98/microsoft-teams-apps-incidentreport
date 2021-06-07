@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
-  "name.short": "Repórter de Incidentes - Especialista",
-  "description.short": "Bot de equipe de especialistas para lidar com solicitações de usuários e definir especialistas em chamada.",
+  "name.short": "Repórter de- Especialista",
+  "description.short": "Bot de equipe de especialistas para lidar com solicitações.",
   "description.full": "Gerencie a solicitação de suporte e configure especialistas em chamada na equipe. Pesquise solicitações urgentes, atribuídas e não atribuídas diretamente da equipe de especialistas.",
   "bots[0].commandLists[0].commands[0].title": "Lista de especialistas",
   "bots[0].commandLists[0].commands[0].description": "Lista de especialistas em chamada",
@@ -15,6 +15,6 @@
   "composeExtensions[0].commands[1].parameters[0].description": "Pedidos de pesquisa",
   "composeExtensions[0].commands[2].title": "Não atribuída",
   "composeExtensions[0].commands[2].description": "Pesquisa solicitações não atribuídas que ainda não foram atribuídas a um especialista",
-  "composeExtensions[0].commands[2].parameters[0].title": "Pesquisar"
+  "composeExtensions[0].commands[2].parameters[0].title": "Pesquisar",
   "composeExtensions[0].commands[2].parameters[0].description": "Pedidos de pesquisa"
 }

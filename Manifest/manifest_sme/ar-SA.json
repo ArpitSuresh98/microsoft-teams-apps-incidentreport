@@ -1,7 +1,7 @@
   {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "name.short": "مبلغ عن الأحداث - خبير",
-  "description.short": "روبوت فريق الخبراء الذي يعالج طلبات المستخدمين ويقوم بتعيين الخبراء المتوفرين عند الطلب.",
+  "description.short": "عالج طلبات المستخدمين ويقوم بتعيين الخبراء المتوفرين عند الطلب.",
   "description.full": "يمكنه إدارة طلب الدعم وتعيين الخبراء المتوفرين عند الطلب في الفريق كما يمكنه البحث في الطلبات العاجلة والمعينة وغير المعينة مباشرةً من فريق الخبراء.",
   "bots[0].commandLists[0].commands[0].title": "قائمة الخبراء",
   "bots[0].commandLists[0].commands[0].description": "قائمة الخبراء المتوفرين عند الطلب",
@@ -15,6 +15,6 @@
   "composeExtensions[0].commands[1].parameters[0].description": "بحث في الطلبات",
   "composeExtensions[0].commands[2].title": "غير المعينة",
   "composeExtensions[0].commands[2].description": "بحث في الطلبات غير المعينة بعد إلى خبير",
-  "composeExtensions[0].commands[2].parameters[0].title": "بحث"
+  "composeExtensions[0].commands[2].parameters[0].title": "بحث",
   "composeExtensions[0].commands[2].parameters[0].description": "بحث في الطلبات"
 }

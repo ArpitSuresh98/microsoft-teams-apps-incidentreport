@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
-  "name.short": "Informador de incidentes: experto",
-  "description.short": "Bot de equipo experto para administrar las solicitudes de usuarios y establecer la configuración de expertos en llamadas.",
+  "name.short": "Informador de: experto",
+  "description.short": "Bot de equipo experto para administrar las solicitudes de usuarios.",
   "description.full": "Administre las solicitudes de asistencia y configure expertos en llamada en el equipo. Busque solicitudes urgentes, asignadas y no asignadas desde el equipo de expertos.",
   "bots[0].commandLists[0].commands[0].title": "Lista de expertos",
   "bots[0].commandLists[0].commands[0].description": "Lista de expertos en llamada",
@@ -15,6 +15,6 @@
   "composeExtensions[0].commands[1].parameters[0].description": "Solicitudes de búsqueda",
   "composeExtensions[0].commands[2].title": "Sin asignar",
   "composeExtensions[0].commands[2].description": "Buscar solicitudes sin asignar aún no asignadas a un experto",
-  "composeExtensions[0].commands[2].parameters[0].title": "Buscar"
+  "composeExtensions[0].commands[2].parameters[0].title": "Buscar",
   "composeExtensions[0].commands[2].parameters[0].description": "Solicitudes de búsqueda"
 }
