@@ -148,5 +148,25 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Common
         /// Default culture text.
         /// </summary>
         public const string DefaultCulture = "en-US";
+
+        /// <summary>
+        /// Assigned request type text.
+        /// </summary>
+        public const string AssignedString = "Assigned";
+
+        /// <summary>
+        /// Unassigned request type text.
+        /// </summary>
+        public const string UnassignedString = "Unassigned";
+
+        /// <summary>
+        /// Closed request type text.
+        /// </summary>
+        public const string ClosedString = "Closed";
+
+        /// <summary>
+        /// Withdrawn request type text.
+        /// </summary>
+        public const string WithdrawnString = "Withdrawn";
     }
 }

@@ -580,9 +580,33 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
         /// </summary>
         /// <param name="title">Column title.</param>
         /// <param name="value">Column value.</param>
+        /// <param name="localizer">The current cultures' string localizer.</param>
         /// <returns>AdaptiveColumnSet.</returns>
-        public static AdaptiveColumnSet GetAdaptiveCardColumnSet(string title, string value)
+        public static AdaptiveColumnSet GetAdaptiveCardColumnSet(string title, string value, IStringLocalizer<Strings> localizer)
         {
+            switch (value)
+            {
+                case Constants.UrgentString:
+                    value = localizer.GetString("NormalText");
+                    break;
+                case Constants.NormalString:
+                    value = localizer.GetString("UrgentText");
+                    break;
+                case Constants.AssignedString:
+                    localizer.GetString("ComposeExtensionCommandAssigned");
+                    break;
+                case Constants.UnassignedString:
+                    value = localizer.GetString("UnassignActionChoiceTitle");
+                    break;
+                case Constants.ClosedString:
+                    value = localizer.GetString("ComposeExtensionsCommandClosed");
+                    break;
+                case Constants.WithdrawnString:
+                    // Withdraw in place of withdrawn
+                    value = localizer.GetString("WithdrawRequestActionText");
+                    break;
+            }
+
             return new AdaptiveColumnSet
             {
                 Columns = new List<AdaptiveColumn>
