@@ -484,102 +484,24 @@
     <value>專家清單</value>
     <comment>Bot command expert list</comment>
   </data>
-  <data name="BotCommandExpertListDescription" xml:space="preserve">
-    <value>待命專家清單</value>
-    <comment>Bot command expert list description</comment>
-  </data>
   <data name="BotCommandNewRequest" xml:space="preserve">
     <value>新增要求</value>
     <comment>Bot command new request</comment>
   </data>
-  <data name="BotCommandNewRequestDescription" xml:space="preserve">
-    <value>向待命小組提出要求</value>
-    <comment>Bot command new request description</comment>
+  <data name="WithdrawnText" xml:space="preserve">
+    <value>已撤回</value>
+    <comment>Text to show withdrawn status of ticket.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssigned" xml:space="preserve">
+  <data name="AssignedText" xml:space="preserve">
     <value>已指派</value>
-    <comment>Compose extension command assigned</comment>
+    <comment>Text to show status as assigned.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssignedDescription" xml:space="preserve">
-    <value>搜尋已指派給專家的要求</value>
-    <comment>Compose extension command assigned description</comment>
-  </data>
-  <data name="ComposeExtensionCommandUnassigned" xml:space="preserve">
-    <value>未分派的</value>
-    <comment>Compose extension command unassigned</comment>
-  </data>
-  <data name="ComposeExtensionCommandUnassignedDescription" xml:space="preserve">
-    <value>搜尋尚未指派給專家的未指派要求</value>
-    <comment>Compose extension command unassigned description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActive" xml:space="preserve">
-    <value>使用中</value>
-    <comment>Compose extensions command active</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActiveDescription" xml:space="preserve">
-    <value>搜尋使用中的要求</value>
-    <comment>Compose extensions command active description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandClosed" xml:space="preserve">
+  <data name="ClosedText" xml:space="preserve">
     <value>已關閉</value>
-    <comment>Compose extensions command closed</comment>
+    <comment>Text to show status as closed.</comment>
   </data>
-  <data name="ComposeExtensionsCommandClosedDescription" xml:space="preserve">
-    <value>搜尋已關閉的要求</value>
-    <comment>Compose extensions command closed description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription" xml:space="preserve">
-    <value>搜尋要求</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription1" xml:space="preserve">
-    <value>搜尋要求</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch" xml:space="preserve">
-    <value>搜尋</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch1" xml:space="preserve">
-    <value>搜尋</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgent" xml:space="preserve">
-    <value>緊急</value>
-    <comment>Compose extension command urgent</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgentDescription" xml:space="preserve">
-    <value>搜尋緊急要求</value>
-    <comment>Compose extension command urgent description</comment>
-  </data>
-  <data name="EndUserManifestFullDescription" xml:space="preserve">
-    <value>對於緊急要求透過群組聊天回報及搜尋事件，以支援團隊並呈報給待命專家。</value>
-    <comment>{MaxLength=4000}
-End user manifest full description</comment>
-  </data>
-  <data name="EndUserManifestName" xml:space="preserve">
-    <value>事件報告者</value>
-    <comment>{MaxLength=30}
-End user manifest name</comment>
-  </data>
-  <data name="EndUserManifestShortDescription" xml:space="preserve">
-    <value>回報事件，迅速與專家交流</value>
-    <comment>{MaxLength=80}
-End user manifest short description</comment>
-  </data>
-  <data name="SmeManifestFullDescription" xml:space="preserve">
-    <value>管理支援要求，並設定小組中的待命專家。直接從專家小組搜尋緊急、已指派及未指派的要求。</value>
-    <comment>{MaxLength=4000}
-SME manifest full description</comment>
-  </data>
-  <data name="SmeManifestName" xml:space="preserve">
-    <value>事件報告者 - 專家</value>
-    <comment>{MaxLength=30}
-SME manifest name</comment>
-  </data>
-  <data name="SmeManifestShortDescription" xml:space="preserve">
-    <value>可處理使用者要求並設定待命專家的專家小組 Bot。</value>
-    <comment>{MaxLength=80}
-SME manifest short description</comment>
+  <data name="UnassignedText" xml:space="preserve">
+    <value>未指派</value>
+    <comment>Text to show status as unassigned.</comment>
   </data>
 </root>

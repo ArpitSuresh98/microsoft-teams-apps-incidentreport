@@ -118,468 +118,390 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CreatedOnText" xml:space="preserve">
-    <value>Дата создания</value>
+    <value>作成日: </value>
     <comment>Text to show in ME Thumbnail card</comment>
   </data>
   <data name="EditRequestTitle" xml:space="preserve">
-    <value>Изменить запрос</value>
+    <value>要求の編集</value>
     <comment>Text to show on button</comment>
   </data>
   <data name="EditTicketActionText" xml:space="preserve">
-    <value>Изменить</value>
+    <value>編集</value>
     <comment>Text to show for edit in ticket detail card in 1:1 chat.</comment>
   </data>
   <data name="GoToOriginalThreadButtonText" xml:space="preserve">
-    <value>Просмотреть сведения</value>
+    <value>詳細を表示</value>
     <comment>Text to show on button in End User ME .</comment>
   </data>
   <data name="InvalidTenantText" xml:space="preserve">
-    <value>Обнаружен недопустимый клиент</value>
+    <value>無効なテナントが検出されました</value>
     <comment>Text to show if invalid tenant.</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>Нет</value>
+    <value>いいえ</value>
     <comment>Text to show in confirmation card.</comment>
   </data>
   <data name="NormalText" xml:space="preserve">
-    <value>Обычный</value>
+    <value>標準</value>
     <comment>Text to show on the radio button when selected normal.</comment>
   </data>
   <data name="RequestSubmittedContent" xml:space="preserve">
-    <value>Для справки, вот что я сообщил службе поддержки.</value>
+    <value>ここでオンコール チームと共有しているものを参照用に示します。</value>
     <comment>Text to show on request submitted card.</comment>
   </data>
   <data name="RequestSubmittedText" xml:space="preserve">
-    <value>Запрос отправлен</value>
+    <value>要求が送信されました</value>
     <comment>Text to show as tiltle of ticket detail card send in 1:1 chat with bot.</comment>
   </data>
   <data name="UpdateActionText" xml:space="preserve">
-    <value>Обновить</value>
+    <value>更新</value>
     <comment>Text to show on the update button in adaptive card.</comment>
   </data>
   <data name="UrgentText" xml:space="preserve">
-    <value>Срочно</value>
+    <value>緊急</value>
     <comment>Text to show on the radio button when selected urgent.</comment>
   </data>
   <data name="WithdrawConfirmation" xml:space="preserve">
-    <value>Вы действительно хотите отменить этот запрос?</value>
+    <value>この要求を取り消しますか?</value>
     <comment>Text to show on withdraw request action in ticket detail card in 1:1 chat.</comment>
   </data>
   <data name="WithdrawRequestActionText" xml:space="preserve">
-    <value>Вывести</value>
+    <value>取り消し</value>
     <comment>Text to show on withdraw button in Request submitted card.</comment>
   </data>
   <data name="WithdrawText" xml:space="preserve">
-    <value>Ваш запрос # {0} отозван. Если проблема сопоставляется, создайте новый запрос. </value>
+    <value>要求 # {0} が取り消されました。別の問題が発生した場合は、新しいリクエストを作成してください。</value>
     <comment>Text to show End User Notification when requets is submitted.</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Да</value>
+    <value>はい</value>
     <comment>Text to show yes in confirmation card.</comment>
   </data>
   <data name="ContentText" xml:space="preserve">
-    <value>Начать сейчас...</value>
+    <value>今すぐ始めましょう...</value>
     <comment>Text to show in EndUser welcome card.</comment>
   </data>
   <data name="NewRequestBulletPoint" xml:space="preserve">
-    <value>* Нажмите кнопку * * Создать запрос * * или введите * * создать запрос * * в этом чате.</value>
+    <value>* [**新しい要求**] ボタンを押すか、このチャットで「**新しい要求**」と入力します。</value>
     <comment>Text to show command in a welcome card.</comment>
   </data>
   <data name="NewRequestButtonText" xml:space="preserve">
-    <value>Новый запрос</value>
+    <value>新しい要求</value>
     <comment>Text to show in Edit task module,new request card.</comment>
   </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Столкнулись с проблемой? Я могу попросить дежурную команду заняться ей.</value>
+    <value>問題が発生している場合は、オンコール チームに確認してもらうことができます。</value>
     <comment>Text to show bot description in welcome card for EndUser.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Добро пожаловать!</value>
+    <value>ようこそ!</value>
     <comment>Text to show in welcome card.</comment>
   </data>
   <data name="WelcomeSubHeaderText" xml:space="preserve">
-    <value>Вот как это работает:</value>
+    <value>しくみの説明:</value>
     <comment>Text to show as a sub header in welcome card.</comment>
   </data>
   <data name="AssignToMeActionChoiceTitle" xml:space="preserve">
-    <value>Назначить мне</value>
+    <value>自分へ割り当て</value>
     <comment>Text to assign a ticket to himself.</comment>
   </data>
   <data name="ChangeStatusButtonText" xml:space="preserve">
-    <value>Изменить статус</value>
+    <value>状態を変更</value>
     <comment>Text to show change status on button.</comment>
   </data>
   <data name="ChatTextButton" xml:space="preserve">
-    <value>Чат</value>
+    <value>チャット</value>
     <comment>Text to show chat button for EndUser.</comment>
   </data>
   <data name="CloseActionChoiceTitle" xml:space="preserve">
-    <value>Закрыть</value>
+    <value>閉じる</value>
     <comment>Text to show Close action in Change status section.</comment>
   </data>
   <data name="FirstObservedText" xml:space="preserve">
-    <value>Впервые замечен в</value>
+    <value>最初の確認日</value>
     <comment>Text to shown title for First observed in ticket card.</comment>
   </data>
   <data name="ReopenActionChoiceTitle" xml:space="preserve">
-    <value>Открыть заново</value>
+    <value>再オープン</value>
     <comment>Text to show in change status section in SME request details card.</comment>
   </data>
   <data name="ReopenAssignToMeActionChoiceTitle" xml:space="preserve">
-    <value>Повторно открыть и назначить мне.</value>
+    <value>再度オープンにして、自分へ割り当てます。</value>
     <comment>Text to show in change status section in SME request details card.</comment>
   </data>
   <data name="RequestDetailsText" xml:space="preserve">
-    <value>Сведения о запросе</value>
+    <value>要求の詳細</value>
     <comment>Text to show in Request details card for Expert Team</comment>
   </data>
   <data name="SeverityButtonText" xml:space="preserve">
-    <value>Изменить серьезность</value>
+    <value>重要度を変更</value>
     <comment>Text to show severity on button in request details card.</comment>
   </data>
   <data name="SmeRequestDetailText" xml:space="preserve">
-    <value>{0} запрашивает поддержку.</value>
+    <value>{0} がサポートを要求しています。</value>
     <comment>Text to show under request submitted card to SME.</comment>
   </data>
   <data name="SmeUserChatMessage" xml:space="preserve">
-    <value>RE: Запрос в службу поддержки {0}.</value>
+    <value>RE: サポート要求 {0}。</value>
     <comment>Text to show when SME user try to chat with Enduser.</comment>
   </data>
   <data name="UnassignActionChoiceTitle" xml:space="preserve">
-    <value>Отменить назначение</value>
+    <value>割り当てを解除</value>
     <comment>Text to show in change status dropdown choice in request details card.</comment>
   </data>
   <data name="EndUserNotificationText" xml:space="preserve">
-    <value>Группа поддержки получила ваш запрос # {0}.</value>
+    <value>サポート チームが要求 #{0} を受信しました。</value>
     <comment>Text to show EndUser notification when request is submitted.</comment>
   </data>
   <data name="SmeAssignedStatus" xml:space="preserve">
-    <value>Теперь этот запрос назначен пользователю {0}.</value>
+    <value>この要求は {0} に割り当てられました。</value>
     <comment>Text to show notification as assigned request is closed to SME Users.</comment>
   </data>
   <data name="SmeClosedStatus" xml:space="preserve">
-    <value>Состояние изменено на "Разрешено" пользователем {0}.</value>
+    <value>状態が {0} によって解決済みに変更されました。</value>
     <comment>Text to show notification as request is closed to SME Users.</comment>
   </data>
   <data name="SmeSeverityStatus" xml:space="preserve">
-    <value>Степень важности изменена на {0} пользователем {1}.</value>
+    <value>{1} によって重要度が {0} に変更されました。</value>
     <comment>Text to show notification when request changes severity from SME Users.</comment>
   </data>
   <data name="SmeUnassignedStatus" xml:space="preserve">
-    <value>Состояние изменено на "не назначено" пользователем {0}.</value>
+    <value>状態が {0} によって未割り当てに変更されました。</value>
     <comment>Text to show notification when request is unassigned to SME Users.</comment>
   </data>
   <data name="ManageExpertsActionText" xml:space="preserve">
-    <value>Управление</value>
+    <value>管理</value>
     <comment>Text to show on button</comment>
   </data>
   <data name="OnCallSMEDetailCardText" xml:space="preserve">
-    <value>Вот текущая дежурная команда. Нажмите кнопку **Управление**, чтобы изменить специалистов, входящих в команду.</value>
+    <value>現在のオンプレ通話チームです。チームで使用するスペシャリストを変更するには、[* * 管理 *] をクリックします。</value>
     <comment>On call SME detail card text.</comment>
   </data>
   <data name="UpdateHistoryActionText" xml:space="preserve">
-    <value>Просмотреть журнал</value>
+    <value>履歴を表示</value>
     <comment>Text to show on button</comment>
   </data>
   <data name="DatetimeTitleText" xml:space="preserve">
-    <value>Последнее обновление</value>
+    <value>最終更新日</value>
     <comment>Text to show on update history card title</comment>
   </data>
   <data name="NameTitleText" xml:space="preserve">
-    <value>Имя</value>
+    <value>名前</value>
     <comment>Text to show on update history card title</comment>
   </data>
   <data name="NoOnCallExpertsConfiguredText" xml:space="preserve">
-    <value>Сейчас никто не дежурит. Выберите **Управление**, чтобы добавить специалистов в дежурную команду.</value>
+    <value>現在、オンコールの担当者はいません。オンコール チームに専門家を追加するには、[**管理**] を選択します。</value>
     <comment>Text to show when no on call support experts are configured</comment>
   </data>
   <data name="ManageExpertsTitle" xml:space="preserve">
-    <value>Управление списком дежурных экспертов</value>
+    <value>ここでオンコールのエキスパートのリストを管理します</value>
     <comment>Text to show in manage experts page shown in task module </comment>
   </data>
   <data name="NoUpdateHistoryText" xml:space="preserve">
-    <value>История дежурств недоступна.</value>
+    <value>利用できるオンコールの履歴はありません。</value>
     <comment>Text to show when no update history is available.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Произошла ошибка. Повторите попытку через несколько минут.</value>
+    <value>問題が発生しました。数分後にもう一度お試しください。</value>
     <comment>Generic error message.</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
-    <value>Группа поддержки выбрала ваш запрос # {0}. Адвокат свяжется с вами в ближайшее время.</value>
+    <value>サポート チームが、要求 #{0} を選択しました。間もなく専門家がご連絡いたします。</value>
     <comment>Text to show notification for user when ticket is assigned to expert team.</comment>
   </data>
   <data name="ClosedTicketUserNotification" xml:space="preserve">
-    <value>Запрос с номером # {0} разрешен. Создайте новый запрос, если вам все еще нужна помощь.</value>
+    <value>このリクエストはチケット番号 {0} で解決されています。ヘルプが必要な場合は、新しいリクエストを作成してください。</value>
     <comment>Text to show user notification message when ticket is closed by Expert Team.</comment>
   </data>
   <data name="EscalateButtonText" xml:space="preserve">
-    <value>Эскалировать</value>
+    <value>エスカレーション</value>
     <comment>Text to show on button in EndUser ME.</comment>
   </data>
   <data name="ReopenedTicketUserNotification" xml:space="preserve">
-    <value>Мы передадим ваш запрос другому специалисту. Мы скоро сообщим вам об этом.</value>
+    <value>要求の担当者を変更しています。間もなく更新があります。</value>
     <comment>Text to show user when status of ticket is reopened by Expert team member.</comment>
   </data>
   <data name="RequestActionTicketUserNotification" xml:space="preserve">
-    <value>Группа поддержки изменила уровень серьезности для запроса # {0}.</value>
+    <value>サポート チームは、要求 #{0} の重大度レベルを変更しました。</value>
     <comment>Text to show user when severity of ticket is changed by Expert team member.</comment>
   </data>
   <data name="DateValidationText" xml:space="preserve">
-    <value>Выбранная дата должна быть в прошлом</value>
+    <value>過去の日付を選択してください</value>
     <comment>Text to show if issue date is greater than enter date of is empty.</comment>
   </data>
   <data name="DescriptionValidationText" xml:space="preserve">
-    <value>Требуется описание</value>
+    <value>説明は必須です</value>
     <comment>Text to show if description field is empty.</comment>
   </data>
   <data name="TitleValidationText" xml:space="preserve">
-    <value>Требуется ввод данных</value>
+    <value>入力が必要です</value>
     <comment>Text to show if title field is empty.</comment>
   </data>
   <data name="GroupName" xml:space="preserve">
-    <value>Запрос № {0} - требуется внимание</value>
+    <value>要求番号 {0} - 要確認</value>
     <comment>Text to use as a group name when group is created.</comment>
   </data>
   <data name="MessageContent" xml:space="preserve">
-    <value>Здравствуйте! Мне нужна срочная помощь с запросом, созданным пользователем {0}. Вы можете мне помочь?</value>
+    <value>こんにちは、{0} によって作成された要求をすぐにサポートする必要があります。サポートできますか?</value>
     <comment>Text to show when user clicks on chat button.</comment>
   </data>
   <data name="InvalidTeamText" xml:space="preserve">
-    <value>Этот бот не был добавлен для этой команды</value>
+    <value>このボットはこのチームに追加されていません</value>
     <comment>Text to show validation in ME when it is not a valid team to open request.</comment>
   </data>
   <data name="ExpertNameTitle" xml:space="preserve">
-    <value>Выбрать специалиста</value>
+    <value>専門家の選択</value>
     <comment>Text to show on manage experts page</comment>
   </data>
   <data name="AddButtonText" xml:space="preserve">
-    <value>Добавить</value>
+    <value>追加</value>
     <comment>Text to show on add button.</comment>
   </data>
   <data name="ExpertListPlaceHolderText" xml:space="preserve">
-    <value>Введите одно или несколько имен или адресов электронной почты</value>
+    <value>1 つ以上の名前またはメール アドレスを入力してください</value>
     <comment>Text to show in expert list dropdown placeholder.</comment>
   </data>
   <data name="ExpertListTitle" xml:space="preserve">
-    <value>Текущая дежурная команда</value>
+    <value>現在のオンコール チーム</value>
     <comment>Text to show on manage experts page.</comment>
   </data>
   <data name="NoMatchesFoundText" xml:space="preserve">
-    <value>Не удалось найти совпадения.</value>
+    <value>該当するものが見つかりませんでした。</value>
     <comment>Text to show when there are no matches to condition.</comment>
   </data>
   <data name="SaveButtonText" xml:space="preserve">
-    <value>Сохранить</value>
+    <value>保存</value>
     <comment>Text to show on save button.</comment>
   </data>
   <data name="OnCallExpertMentionText" xml:space="preserve">
-    <value>Список экспертов для звонков был изменен. {0} добавлены.</value>
+    <value>オンプレ問い合わせのエキスパートの一覧が変更されました。{0} が追加されました。</value>
     <comment>Text to show when on call expert list is modified.</comment>
   </data>
   <data name="MaxOnCallExpertsAllowedText" xml:space="preserve">
-    <value>В список можно добавить не более 15 пользователей, минимальное количество - 0</value>
+    <value>0 人から最大 15 人のユーザーをリストに追加できます</value>
     <comment>Text to show for validation message when on call experts selected are more than 15.</comment>
   </data>
   <data name="ExperListBulletPoint" xml:space="preserve">
-    <value>* Попаданий * * Current On-Call * * для настройки экспертов звонков из этой команды.</value>
+    <value>* このチームからオンコールのエキスパートを設定するには、[**現在のオンコール チーム**] ボタンを押してください。</value>
     <comment>Text to show command in a welcome Team card.</comment>
   </data>
   <data name="SmeEditNotificationText" xml:space="preserve">
-    <value>Запрос был изменен пользователем {0}.</value>
+    <value>この要求は {0} によって変更されました。</value>
     <comment>Text to show when user edits the request.</comment>
   </data>
   <data name="SmeWithdrawNotificationText" xml:space="preserve">
-    <value>Этот запрос отменен пользователем {0}.</value>
+    <value>この要求は {0} によって取り消されました。</value>
     <comment>Text to show for SME user when withdrawn.</comment>
   </data>
   <data name="RequestUpdatedText" xml:space="preserve">
-    <value>Запрос обновлен</value>
+    <value>要求が更新されました</value>
     <comment>Text to show as title of ticket edited card send in 1:1 chat with bot.</comment>
   </data>
   <data name="WelcomeTeamCardContent" xml:space="preserve">
-    <value>Здравствуйте! Я могу помочь вам предоставить поддержку пользователям, которые взаимодействуют со мной и нуждаются в дополнительной помощи.</value>
+    <value>こんにちは、私と対話し、支援が必要なユーザーにサポートを提供するお手伝いをすることができます。</value>
     <comment>Text to show bot description in welcome card for Sme.</comment>
   </data>
   <data name="ClosedErrorMessage" xml:space="preserve">
-    <value>Этот запрос закрыт и не может быть изменен</value>
+    <value>この要求はクローズされているため、編集できません</value>
     <comment>Text to show when user want to edit closed request.</comment>
   </data>
   <data name="DescriptionText" xml:space="preserve">
-    <value>Сведения</value>
+    <value>詳細</value>
     <comment>Text to show description in request submitted card.</comment>
   </data>
   <data name="RequestNumberText" xml:space="preserve">
-    <value>Номер запроса</value>
+    <value>要求番号</value>
     <comment>Text to show as request number in new request card.</comment>
   </data>
   <data name="RequestTypeText" xml:space="preserve">
-    <value>Тип запроса</value>
+    <value>要求の種類</value>
     <comment>Text to show request type in request submitted card.</comment>
   </data>
   <data name="TitleDisplayText" xml:space="preserve">
-    <value>Что случилось?</value>
+    <value>説明</value>
     <comment>Text to show as title text in new request card.</comment>
   </data>
   <data name="WithdrawErrorMessage" xml:space="preserve">
-    <value>Только активные запросы могут быть отозваны.</value>
+    <value>アクティブな要求のみ取り消すことができます。</value>
     <comment>Text to show when user want to withdraw closed request.</comment>
   </data>
   <data name="StatusCheckBulletPoint" xml:space="preserve">
-    <value>* Чтобы проверить состояние, нажмите на маленькое изображение моей иконки рядом с параметрами форматирования вашего сообщения.</value>
+    <value>* 状態を確認するには、メッセージの書式設定オプションの近くにある小さなバージョンのアイコンをクリックしてください。</value>
     <comment>Text to show in welcome card for know user how this bot hepls.</comment>
   </data>
   <data name="AzureStorageErrorText" xml:space="preserve">
-    <value>При сохранении запроса произошла ошибка. Повторите попытку через несколько минут.</value>
+    <value>要求の保存中に問題が発生しました。数分後にもう一度お試しください。</value>
     <comment>Text to show error when the request is not save in the azure storage.</comment>
   </data>
   <data name="CancelButtonText" xml:space="preserve">
-    <value>Отмена</value>
+    <value>キャンセル</value>
     <comment>Text to show for button action.</comment>
   </data>
   <data name="DesciptionPlaceHolderText" xml:space="preserve">
-    <value>Опишите проблему</value>
+    <value>問題の説明を入力</value>
     <comment>Text to show in desciption place holder.</comment>
   </data>
   <data name="NewRequestTitle" xml:space="preserve">
-    <value>Новый запрос</value>
+    <value>新しい要求</value>
     <comment>Text to show in new request card.</comment>
   </data>
   <data name="SendRequestButtonText" xml:space="preserve">
-    <value>Отправить запрос</value>
+    <value>要求を送信</value>
     <comment>Text to show for button action.</comment>
   </data>
   <data name="TellUsAboutProblemText" xml:space="preserve">
-    <value>Расскажите нам о проблеме</value>
+    <value>問題についてお聞かせください</value>
     <comment>Text to show in card.</comment>
   </data>
   <data name="TitlePlaceHolderText" xml:space="preserve">
-    <value>Введите текст…</value>
+    <value>ここに入力...</value>
     <comment>Text to show in title place holder.</comment>
   </data>
   <data name="SessionExpired" xml:space="preserve">
-    <value>Время сеанса истекло. Для продолжения войдите еще раз.</value>
+    <value>セッションの有効期限が切れています。続けるには、もう一度サインインしてください。</value>
     <comment>Text to show when user session is expired.</comment>
   </data>
   <data name="UnauthorizedAccess" xml:space="preserve">
-    <value>Несанкционированный доступ</value>
+    <value>未承認のアクセス</value>
     <comment>Text to show when user is not authenticated.</comment>
   </data>
   <data name="OnCallListUpdateMessage" xml:space="preserve">
-    <value>Список дежурных экспертов был изменен.</value>
+    <value>オンコールのエキスパートのリストが変更されました。</value>
   </data>
   <data name="RequestStatusText" xml:space="preserve">
-    <value>Состояние</value>
+    <value>状態</value>
     <comment>Text to show ticket current status.</comment>
   </data>
   <data name="TeamRequestBulletPoint" xml:space="preserve">
-    <value>* Чтобы проверить назначения запросов, нажмите на маленькое изображение моей иконки рядом с параметрами форматирования вашего сообщения.</value>
+    <value>* 要求を assignements するには、[メッセージの書式設定] の下にある小さなバージョンのアイコンをクリックします。</value>
     <comment>Text to show as a bullet point in team welcome card.</comment>
   </data>
   <data name="ExpertList" xml:space="preserve">
-    <value>Список экспертов</value>
+    <value>エキスパートの一覧</value>
     <comment>Text to show on list of experts from command list.</comment>
   </data>
   <data name="BotCommandExpertList" xml:space="preserve">
-    <value>Список экспертов</value>
+    <value>エキスパートのリスト</value>
     <comment>Bot command expert list</comment>
   </data>
-  <data name="BotCommandExpertListDescription" xml:space="preserve">
-    <value>Список дежурных экспертов</value>
-    <comment>Bot command expert list description</comment>
-  </data>
   <data name="BotCommandNewRequest" xml:space="preserve">
-    <value>Новый запрос</value>
+    <value>新しい要求</value>
     <comment>Bot command new request</comment>
   </data>
-  <data name="BotCommandNewRequestDescription" xml:space="preserve">
-    <value>Создание запроса дежурной команде</value>
-    <comment>Bot command new request description</comment>
+  <data name="WithdrawnText" xml:space="preserve">
+    <value>取り消し済み</value>
+    <comment>Text to show withdrawn status of ticket.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssigned" xml:space="preserve">
-    <value>Назначено</value>
-    <comment>Compose extension command assigned</comment>
+  <data name="AssignedText" xml:space="preserve">
+    <value>割り当て済み</value>
+    <comment>Text to show status as assigned.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssignedDescription" xml:space="preserve">
-    <value>Поиск запросов, назначенных эксперту</value>
-    <comment>Compose extension command assigned description</comment>
+  <data name="ClosedText" xml:space="preserve">
+    <value>終了</value>
+    <comment>Text to show status as closed.</comment>
   </data>
-  <data name="ComposeExtensionCommandUnassigned" xml:space="preserve">
-    <value>Не назначено</value>
-    <comment>Compose extension command unassigned</comment>
-  </data>
-  <data name="ComposeExtensionCommandUnassignedDescription" xml:space="preserve">
-    <value>Поиск запросов, не назначенных эксперту</value>
-    <comment>Compose extension command unassigned description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActive" xml:space="preserve">
-    <value>Активно</value>
-    <comment>Compose extensions command active</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActiveDescription" xml:space="preserve">
-    <value>Поиск активных запросов</value>
-    <comment>Compose extensions command active description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandClosed" xml:space="preserve">
-    <value>Закрыто</value>
-    <comment>Compose extensions command closed</comment>
-  </data>
-  <data name="ComposeExtensionsCommandClosedDescription" xml:space="preserve">
-    <value>Поиск закрытых запросов</value>
-    <comment>Compose extensions command closed description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription" xml:space="preserve">
-    <value>Поиск запросов</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription1" xml:space="preserve">
-    <value>Поиск запросов</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch" xml:space="preserve">
-    <value>Поиск</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch1" xml:space="preserve">
-    <value>Поиск</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgent" xml:space="preserve">
-    <value>Срочно</value>
-    <comment>Compose extension command urgent</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgentDescription" xml:space="preserve">
-    <value>Поиск срочных запросов</value>
-    <comment>Compose extension command urgent description</comment>
-  </data>
-  <data name="EndUserManifestFullDescription" xml:space="preserve">
-    <value>Сообщайте об инцидентах и находите их с помощью команд технической поддержки, а также переводите их дежурным экспертам посредством групповых чатов для срочных запросов.</value>
-    <comment>{MaxLength=4000}
-End user manifest full description</comment>
-  </data>
-  <data name="EndUserManifestName" xml:space="preserve">
-    <value>Создатель отчета об инциденте</value>
-    <comment>{MaxLength=30}
-End user manifest name</comment>
-  </data>
-  <data name="EndUserManifestShortDescription" xml:space="preserve">
-    <value>Сообщайте об инцидентах, быстро связывайтесь со специалистами</value>
-    <comment>{MaxLength=80}
-End user manifest short description</comment>
-  </data>
-  <data name="SmeManifestFullDescription" xml:space="preserve">
-    <value>Управляйте запросом в службу поддержки и подготовьте дежурных экспертов в команде. Находите срочные, назначенные и неназначенные запросы непосредственно с помощью команды экспертов.</value>
-    <comment>{MaxLength=4000}
-SME manifest full description</comment>
-  </data>
-  <data name="SmeManifestName" xml:space="preserve">
-    <value>Создатель отчета об инциденте — эксперт</value>
-    <comment>{MaxLength=30}
-SME manifest name</comment>
-  </data>
-  <data name="SmeManifestShortDescription" xml:space="preserve">
-    <value>Бот команды экспертов для обработки запросов пользователей и подготовки дежурных экспертов.</value>
-    <comment>{MaxLength=80}
-SME manifest short description</comment>
+  <data name="UnassignedText" xml:space="preserve">
+    <value>未割り当て</value>
+    <comment>Text to show status as unassigned.</comment>
   </data>
 </root>

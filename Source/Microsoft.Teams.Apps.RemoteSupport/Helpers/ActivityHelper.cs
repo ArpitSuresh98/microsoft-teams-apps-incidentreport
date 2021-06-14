@@ -75,7 +75,7 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
             turnContext.Activity.RemoveRecipientMention();
             string text = turnContext.Activity.Text.Trim();
 
-            if (text.Equals(localizer.GetString("ExpertList").ToString(), StringComparison.InvariantCultureIgnoreCase))
+            if (text.Equals(localizer.GetString("BotCommandExpertList").ToString(), StringComparison.CurrentCultureIgnoreCase))
             {
                 // Get on call support data from storage
                 var onCallSupportDetails = await onCallSupportDetailSearchService.SearchOnCallSupportTeamAsync(searchQuery: string.Empty, count: 10);
@@ -249,14 +249,14 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
 
             string text = (turnContext.Activity.Text ?? string.Empty).Trim().ToUpperInvariant();
 
-            if (text.Equals(localizer.GetString("NewRequestTitle").ToString(), StringComparison.InvariantCultureIgnoreCase))
+            if (text.Equals(localizer.GetString("BotCommandNewRequest").ToString(), StringComparison.CurrentCultureIgnoreCase))
             {
                 logger.LogInformation("New request action called.");
                 CardConfigurationEntity cardTemplateJson = await cardConfigurationStorageProvider.GetConfigurationAsync();
                 IMessageActivity newTicketActivity = MessageFactory.Attachment(TicketCard.GetNewTicketCard(cardTemplateJson, localizer));
                 await turnContext.SendActivityAsync(newTicketActivity);
             }
-            else if (text.Equals(localizer.GetString("No").ToString(), StringComparison.InvariantCultureIgnoreCase))
+            else if (text.Equals(localizer.GetString("No").ToString(), StringComparison.CurrentCultureIgnoreCase))
             {
                 return;
             }

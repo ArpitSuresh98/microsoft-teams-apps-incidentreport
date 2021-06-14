@@ -484,102 +484,24 @@
     <value>Lista de expertos</value>
     <comment>Bot command expert list</comment>
   </data>
-  <data name="BotCommandExpertListDescription" xml:space="preserve">
-    <value>Lista de expertos en llamada</value>
-    <comment>Bot command expert list description</comment>
-  </data>
   <data name="BotCommandNewRequest" xml:space="preserve">
     <value>Nueva solicitud</value>
     <comment>Bot command new request</comment>
   </data>
-  <data name="BotCommandNewRequestDescription" xml:space="preserve">
-    <value>Realizar una solicitud al equipo de la llamada</value>
-    <comment>Bot command new request description</comment>
+  <data name="WithdrawnText" xml:space="preserve">
+    <value>Retirado</value>
+    <comment>Text to show withdrawn status of ticket.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssigned" xml:space="preserve">
+  <data name="AssignedText" xml:space="preserve">
     <value>Asignado</value>
-    <comment>Compose extension command assigned</comment>
+    <comment>Text to show status as assigned.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssignedDescription" xml:space="preserve">
-    <value>Buscar solicitudes asignadas a un experto</value>
-    <comment>Compose extension command assigned description</comment>
-  </data>
-  <data name="ComposeExtensionCommandUnassigned" xml:space="preserve">
-    <value>Sin asignar</value>
-    <comment>Compose extension command unassigned</comment>
-  </data>
-  <data name="ComposeExtensionCommandUnassignedDescription" xml:space="preserve">
-    <value>Buscar solicitudes sin asignar aún no asignadas a un experto</value>
-    <comment>Compose extension command unassigned description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActive" xml:space="preserve">
-    <value>Activo</value>
-    <comment>Compose extensions command active</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActiveDescription" xml:space="preserve">
-    <value>Buscar solicitudes activas</value>
-    <comment>Compose extensions command active description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandClosed" xml:space="preserve">
+  <data name="ClosedText" xml:space="preserve">
     <value>Cerrado</value>
-    <comment>Compose extensions command closed</comment>
+    <comment>Text to show status as closed.</comment>
   </data>
-  <data name="ComposeExtensionsCommandClosedDescription" xml:space="preserve">
-    <value>Buscar solicitudes cerradas</value>
-    <comment>Compose extensions command closed description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription" xml:space="preserve">
-    <value>Solicitudes de búsqueda</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription1" xml:space="preserve">
-    <value>Solicitudes de búsqueda</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch" xml:space="preserve">
-    <value>Buscar</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch1" xml:space="preserve">
-    <value>Buscar</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgent" xml:space="preserve">
-    <value>Urgente</value>
-    <comment>Compose extension command urgent</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgentDescription" xml:space="preserve">
-    <value>Buscar solicitudes urgentes</value>
-    <comment>Compose extension command urgent description</comment>
-  </data>
-  <data name="EndUserManifestFullDescription" xml:space="preserve">
-    <value>Informe y búsqueda de incidentes para admitir equipos y escalar a expertos en llamada a través del chat grupal para las solicitudes urgentes.</value>
-    <comment>{MaxLength=4000}
-End user manifest full description</comment>
-  </data>
-  <data name="EndUserManifestName" xml:space="preserve">
-    <value>Informador de incidentes</value>
-    <comment>{MaxLength=30}
-End user manifest name</comment>
-  </data>
-  <data name="EndUserManifestShortDescription" xml:space="preserve">
-    <value>Notificar incidentes, conectar con especialistas rápidamente</value>
-    <comment>{MaxLength=80}
-End user manifest short description</comment>
-  </data>
-  <data name="SmeManifestFullDescription" xml:space="preserve">
-    <value>Administre las solicitudes de asistencia y configure expertos en llamada en el equipo. Busque solicitudes urgentes, asignadas y no asignadas desde el equipo de expertos.</value>
-    <comment>{MaxLength=4000}
-SME manifest full description</comment>
-  </data>
-  <data name="SmeManifestName" xml:space="preserve">
-    <value>Informador de incidentes: experto</value>
-    <comment>{MaxLength=30}
-SME manifest name</comment>
-  </data>
-  <data name="SmeManifestShortDescription" xml:space="preserve">
-    <value>Bot de equipo experto para administrar las solicitudes de usuarios y establecer la configuración de expertos en llamadas.</value>
-    <comment>{MaxLength=80}
-SME manifest short description</comment>
+  <data name="UnassignedText" xml:space="preserve">
+    <value>Sin asignar</value>
+    <comment>Text to show status as unassigned.</comment>
   </data>
 </root>

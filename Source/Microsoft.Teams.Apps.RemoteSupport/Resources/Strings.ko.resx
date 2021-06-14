@@ -484,102 +484,24 @@
     <value>전문가 목록</value>
     <comment>Bot command expert list</comment>
   </data>
-  <data name="BotCommandExpertListDescription" xml:space="preserve">
-    <value>전화 전문가 목록</value>
-    <comment>Bot command expert list description</comment>
-  </data>
   <data name="BotCommandNewRequest" xml:space="preserve">
     <value>새 요청</value>
     <comment>Bot command new request</comment>
   </data>
-  <data name="BotCommandNewRequestDescription" xml:space="preserve">
-    <value>대기 중인 팀에 요청</value>
-    <comment>Bot command new request description</comment>
+  <data name="WithdrawnText" xml:space="preserve">
+    <value>철수됨</value>
+    <comment>Text to show withdrawn status of ticket.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssigned" xml:space="preserve">
+  <data name="AssignedText" xml:space="preserve">
     <value>할당됨</value>
-    <comment>Compose extension command assigned</comment>
+    <comment>Text to show status as assigned.</comment>
   </data>
-  <data name="ComposeExtensionCommandAssignedDescription" xml:space="preserve">
-    <value>전문가에게 할당된 검색 요청</value>
-    <comment>Compose extension command assigned description</comment>
-  </data>
-  <data name="ComposeExtensionCommandUnassigned" xml:space="preserve">
-    <value>할당 해제됨</value>
-    <comment>Compose extension command unassigned</comment>
-  </data>
-  <data name="ComposeExtensionCommandUnassignedDescription" xml:space="preserve">
-    <value>검색되지 않은 요청이 전문가에 아직 할당되지 않았습니다.</value>
-    <comment>Compose extension command unassigned description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActive" xml:space="preserve">
-    <value>활성</value>
-    <comment>Compose extensions command active</comment>
-  </data>
-  <data name="ComposeExtensionsCommandActiveDescription" xml:space="preserve">
-    <value>활성 요청 검색</value>
-    <comment>Compose extensions command active description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandClosed" xml:space="preserve">
+  <data name="ClosedText" xml:space="preserve">
     <value>닫힘</value>
-    <comment>Compose extensions command closed</comment>
+    <comment>Text to show status as closed.</comment>
   </data>
-  <data name="ComposeExtensionsCommandClosedDescription" xml:space="preserve">
-    <value>닫힌 요청 검색</value>
-    <comment>Compose extensions command closed description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription" xml:space="preserve">
-    <value>검색 요청</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterDescription1" xml:space="preserve">
-    <value>검색 요청</value>
-    <comment>Compose extensions command parameter search description</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch" xml:space="preserve">
-    <value>검색</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandParameterSearch1" xml:space="preserve">
-    <value>검색</value>
-    <comment>Compose extensions command parameter search</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgent" xml:space="preserve">
-    <value>긴급</value>
-    <comment>Compose extension command urgent</comment>
-  </data>
-  <data name="ComposeExtensionsCommandUrgentDescription" xml:space="preserve">
-    <value>긴급 요청 검색</value>
-    <comment>Compose extension command urgent description</comment>
-  </data>
-  <data name="EndUserManifestFullDescription" xml:space="preserve">
-    <value>인시던트를 보고하고 검색하여 팀을 지원하고 그룹 채팅을 통해 긴급한 요청에 대해 호출 전문가에게 에스컬레이션합니다.</value>
-    <comment>{MaxLength=4000}
-End user manifest full description</comment>
-  </data>
-  <data name="EndUserManifestName" xml:space="preserve">
-    <value>인시던트 보고자</value>
-    <comment>{MaxLength=30}
-End user manifest name</comment>
-  </data>
-  <data name="EndUserManifestShortDescription" xml:space="preserve">
-    <value>인시던트를 보고, 전문가와 빠르게 연결</value>
-    <comment>{MaxLength=80}
-End user manifest short description</comment>
-  </data>
-  <data name="SmeManifestFullDescription" xml:space="preserve">
-    <value>팀에서 지원 요청을 관리하고 팀에서 통화 전문가를 설정합니다. 전문 팀에서 바로 검색하고 할당되지 않은 요청과 할당되지 않은 요청을 검색합니다.</value>
-    <comment>{MaxLength=4000}
-SME manifest full description</comment>
-  </data>
-  <data name="SmeManifestName" xml:space="preserve">
-    <value>인시던트 보고자 - 전문가</value>
-    <comment>{MaxLength=30}
-SME manifest name</comment>
-  </data>
-  <data name="SmeManifestShortDescription" xml:space="preserve">
-    <value>팀 봇은 사용자 요청을 처리하고 통화 수신 실험을 설정합니다.</value>
-    <comment>{MaxLength=80}
-SME manifest short description</comment>
+  <data name="UnassignedText" xml:space="preserve">
+    <value>할당 해제됨</value>
+    <comment>Text to show status as unassigned.</comment>
   </data>
 </root>

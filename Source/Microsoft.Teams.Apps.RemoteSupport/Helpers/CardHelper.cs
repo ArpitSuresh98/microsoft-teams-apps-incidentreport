@@ -587,23 +587,23 @@ namespace Microsoft.Teams.Apps.RemoteSupport.Helpers
             switch (value)
             {
                 case Constants.UrgentString:
-                    value = localizer.GetString("NormalText");
-                    break;
-                case Constants.NormalString:
                     value = localizer.GetString("UrgentText");
                     break;
+                case Constants.NormalString:
+                    value = localizer.GetString("NormalText");
+                    break;
                 case Constants.AssignedString:
-                    localizer.GetString("ComposeExtensionCommandAssigned");
+                    value = localizer.GetString("AssignedText");
                     break;
                 case Constants.UnassignedString:
-                    value = localizer.GetString("UnassignActionChoiceTitle");
+                    value = localizer.GetString("UnassignedText");
                     break;
                 case Constants.ClosedString:
-                    value = localizer.GetString("ComposeExtensionsCommandClosed");
+                    value = localizer.GetString("ClosedText");
                     break;
                 case Constants.WithdrawnString:
                     // Withdraw in place of withdrawn
-                    value = localizer.GetString("WithdrawRequestActionText");
+                    value = localizer.GetString("WithdrawnText");
                     break;
             }
 
